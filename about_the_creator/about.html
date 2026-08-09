@@ -1,0 +1,276 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>CINEVISION | About &amp; Process</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#131314",
+                        "primary-fixed": "#ffddb0",
+                        "on-secondary-fixed-variant": "#6200bc",
+                        "outline": "#9c8f7f",
+                        "on-primary-container": "#654300",
+                        "secondary-fixed": "#eddcff",
+                        "error-container": "#93000a",
+                        "inverse-on-surface": "#313031",
+                        "on-tertiary-fixed": "#1a1c1c",
+                        "surface-tint": "#f4bd6a",
+                        "primary": "#ffcd82",
+                        "secondary-fixed-dim": "#d8b9ff",
+                        "secondary": "#d8b9ff",
+                        "inverse-primary": "#7f5608",
+                        "on-tertiary-fixed-variant": "#454747",
+                        "surface-dim": "#131314",
+                        "on-primary-fixed": "#281800",
+                        "secondary-container": "#6e06d0",
+                        "tertiary-fixed-dim": "#c6c6c7",
+                        "on-error": "#690005",
+                        "tertiary": "#d4d5d5",
+                        "on-primary-fixed-variant": "#614000",
+                        "outline-variant": "#4f4538",
+                        "on-surface-variant": "#d3c4b2",
+                        "primary-fixed-dim": "#f4bd6a",
+                        "tertiary-fixed": "#e2e2e2",
+                        "on-primary": "#442c00",
+                        "surface-container-high": "#2a2a2b",
+                        "on-background": "#e5e2e3",
+                        "on-secondary-fixed": "#290055",
+                        "on-tertiary": "#2f3131",
+                        "surface-bright": "#3a393a",
+                        "on-tertiary-container": "#484a4a",
+                        "surface-container-highest": "#353436",
+                        "error": "#ffb4ab",
+                        "inverse-surface": "#e5e2e3",
+                        "background": "#131314",
+                        "primary-container": "#e5b05e",
+                        "surface-variant": "#353436",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary-container": "#d5b5ff",
+                        "on-surface": "#e5e2e3",
+                        "surface-container": "#201f20",
+                        "surface-container-low": "#1c1b1c",
+                        "tertiary-container": "#b8b9b9",
+                        "surface-container-lowest": "#0e0e0f",
+                        "on-secondary": "#450086"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "stack-md": "16px",
+                        "stack-sm": "8px",
+                        "margin-desktop": "80px",
+                        "margin-mobile": "20px",
+                        "container-max": "1440px",
+                        "stack-lg": "32px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Bodoni Moda", "serif"],
+                        "body-lg": ["Hanken Grotesk", "sans-serif"],
+                        "label-md": ["Hanken Grotesk", "sans-serif"],
+                        "body-md": ["Hanken Grotesk", "sans-serif"],
+                        "display-lg-mobile": ["Bodoni Moda", "serif"],
+                        "headline-lg": ["Bodoni Moda", "serif"],
+                        "headline-md": ["Bodoni Moda", "serif"],
+                        "headline-xl": ["Bodoni Moda", "serif"],
+                        "label-sm": ["Hanken Grotesk", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["84px", { "lineHeight": "90px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "52px", "fontWeight": "700" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "600" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "500" }],
+                        "headline-xl": ["60px", { "lineHeight": "72px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .grain-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.05;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+        
+        /* Subtle glow effects */
+        .glow-hover:hover {
+            box-shadow: 0 0 30px rgba(255, 205, 130, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden antialiased selection:bg-primary selection:text-on-primary">
+<div class="grain-overlay"></div>
+<!-- TopNavBar Shared Component -->
+<nav class="fixed top-0 w-full bg-transparent backdrop-blur-xl border-b border-white/10 z-50">
+<div class="flex justify-between items-center px-margin-desktop py-stack-md w-full max-w-container-max mx-auto">
+<a class="font-display-lg text-headline-md text-primary tracking-tighter" href="#">NEXUSSNIPS</a>
+<div class="hidden md:flex gap-gutter items-center">
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 transition-all duration-300" href="#">REELS</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 transition-all duration-300" href="#">CATEGORIES</a>
+<a class="font-body-md text-label-md text-primary border-b-2 border-primary pb-1 hover:brightness-125 transition-all duration-300" href="#">ABOUT</a>
+<a class="font-body-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 transition-all duration-300" href="#">CONNECT</a>
+</div>
+<button class="hidden md:block bg-primary text-on-primary font-label-md px-6 py-3 rounded scale-95 active:scale-90 transition-transform hover:brightness-125">
+                CONTACT
+            </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-[100px] min-h-screen">
+<!-- Hero Section -->
+<section class="min-h-[80vh] flex items-center px-margin-mobile md:px-margin-desktop relative">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-30" data-alt="A cinematic, moody portrait of a film editor in a dark studio. Soft, high-contrast lighting highlighting the subject's face against a backdrop of blurred glowing monitors. Deep charcoal shadows and subtle cinematic gold highlights. The aesthetic is prestigious, professional, and slightly mysterious, fitting a high-end film studio environment." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAZVOotmwKu_ANCr8gwBBBwtfyOUK4LLO4V30wMeXiwl1jHfZvsffpOdZX3Wk-AmZgQpAi1UW26TsWXfCOrJI80-Yp-bN6QPYbK8CC7U9cw-UM6WixXpkAqBQhq66K3psCrif4rZUwANghH_VmRrPhG9UoOppNzfui5b8ZBs_tfV-oPQR658D2hLiFu9tjQ0czyj47A2T4_SAgdBweZSamxU3cC4pAa09MXo9O7adWHK6NGemKoYDOn&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="max-w-4xl relative z-10 py-section-gap">
+<span class="font-label-md text-primary tracking-widest mb-stack-md block">THE VISIONARY</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-stack-lg">
+                    Crafting <span class="text-primary italic">Narratives</span><br> Through Light &amp; Shadow.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-stack-lg">
+                    With over a decade of experience shaping visual stories for premium brands and independent cinema, my approach transcends mere cutting. It is an architecture of emotion.
+                </p>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary font-label-md px-8 py-4 rounded hover:brightness-125 transition-all duration-300">
+                        VIEW SHOWREEL
+                    </button>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-surface-container-low border-y border-white/5 relative z-10">
+<div class="max-w-container-max mx-auto grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="flex flex-col border-l border-primary/20 pl-6">
+<span class="font-display-lg text-headline-xl text-primary mb-2">10M+</span>
+<span class="font-label-md text-on-surface-variant">VIEWS GENERATED</span>
+</div>
+<div class="flex flex-col border-l border-primary/20 pl-6">
+<span class="font-display-lg text-headline-xl text-primary mb-2">100+</span>
+<span class="font-label-md text-on-surface-variant">PROJECTS DELIVERED</span>
+</div>
+<div class="flex flex-col border-l border-primary/20 pl-6">
+
+
+</div>
+<div class="flex flex-col border-l border-primary/20 pl-6">
+
+
+</div>
+</div>
+</section>
+<!-- The Process Bento Grid -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap relative z-10">
+<div class="max-w-container-max mx-auto">
+<div class="mb-stack-lg md:mb-section-gap flex flex-col md:flex-row justify-between items-end">
+<div>
+<span class="font-label-md text-primary tracking-widest mb-stack-sm block">METHODOLOGY</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Editorial Process</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-stack-md md:mt-0">
+                        A rigorous, multi-layered approach ensuring every frame serves the narrative intent, blending technical precision with artistic intuition.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Step 1: Cutting -->
+<div class="md:col-span-8 glass-panel rounded-xl overflow-hidden group glow-hover transition-all duration-500 relative min-h-[400px]">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-40 group-hover:opacity-60 transition-opacity duration-700" data-alt="Abstract visualization of video editing timelines. Multiple sleek, horizontal glowing bars in cinematic gold and deep charcoal, resembling a non-linear editing software interface, but highly stylized and minimalist. Soft bokeh and deep focus, creating a premium technological aesthetic." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuA3vulTtlv8LEKeqmRGQgYhdKd7vuy_aSRTPmzBGoVpjFdCDwCOwc4_f0FboTCLWyGMUK7sp-gHJlKOOh7EhiHxGA8NC1ZN4ZnCBOU9WWgE3S4ovL4UwZD5jynJeP7fbRQ_2N-loWLENisMP6C4_qoLwugmKz4tP-fb9u0bqEvMEIzK5y5JO7XnWKnZMnZFVQy-LuPMcsShKN6_vgxMdSPL3-mg9NqmMDOF-d8_tH9RjW13IgEx3yqc&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/80 to-transparent"></div>
+</div>
+<div class="relative z-10 p-stack-lg h-full flex flex-col justify-end">
+<div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full border border-primary/30 bg-primary/10 text-primary">
+<span class="material-symbols-outlined" data-icon="cut">cut</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">01. The Assembly</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+                                Carving the narrative spine. This is where pacing is established and the rhythm of the piece is discovered through meticulous selection of takes and intentional pacing.
+                            </p>
+</div>
+</div>
+<!-- Step 2: Color -->
+<div class="md:col-span-4 glass-panel rounded-xl overflow-hidden group glow-hover transition-all duration-500 relative min-h-[400px]">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-40 group-hover:opacity-60 transition-opacity duration-700" data-alt="A color grading setup. Glowing color wheels and vectorscopes overlaid on a moody, desaturated cinematic frame. Neon purple and cinematic gold accents against a predominantly dark, surface-level background. Minimalist and technical, conveying precision and mood." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDq9uU1k_kuZb18PH5IkmF6bo67bYsqVL6o9JtqWq_12p0-lUh2k4BqiTjaEQsVo2Q6xJ7Qp2h5rJHj0_holcwpvpMD60Bf2JxbH5LbCK4ThR7M_pKRtlJYxFZxiXacsW-tIKh_MLES7rdah7sWf3TShF3NYIYnXn2cjggK8ZFdGXbZfi76CKhhX5otPeJk_tx_7R5vpRq0PPkpRgXXAowOKnGN59iKSF9fuZ7xIge4VWkqs0_pZjEw&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/80 to-transparent"></div>
+</div>
+<div class="relative z-10 p-stack-lg h-full flex flex-col justify-end">
+<div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full border border-secondary/30 bg-secondary/10 text-secondary">
+<span class="material-symbols-outlined" data-icon="palette">palette</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">02. Color Grading</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                Sculpting with light. Enhancing the emotional resonance through customized LUTs and precise tonal adjustments.
+                            </p>
+</div>
+</div>
+<!-- Step 3: Sound -->
+<div class="md:col-span-12 glass-panel rounded-xl overflow-hidden group glow-hover transition-all duration-500 relative min-h-[300px] flex items-center">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-30 group-hover:opacity-50 transition-opacity duration-700" data-alt="Abstract representation of sound waves. Sleek, minimalist audio waveforms in cinematic gold on a deep black background. The waves have a subtle glow and depth, suggesting high-fidelity audio engineering in a premium studio environment." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDR9OUB-M2ryzGZKUo4USHstu7Rd_AJvH6QEqHiAvqeqp4W5odBUOTdXXIZ5zTQ21ibKq2-UNjj2j2mQDx2dJ1ujWRy_W-angTTgAu9u9wnd6X3lPMC2P-NCxhbbOE0qEdq3JksD4Q1NWzrP_PrlS7N6EYc1suj4OC3QqYUywpRovE4FDtzU0gXZ2Jh74JoUKL2rPpGdsxBAYkhhhmMBvDwhpL-xUqLk4VGVNwavt19VQLMDuEjpPwd&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
+</div>
+<div class="relative z-10 p-stack-lg w-full md:w-1/2">
+<div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full border border-primary/30 bg-primary/10 text-primary">
+<span class="material-symbols-outlined" data-icon="graphic_eq">graphic_eq</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">03. Sound Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                The unseen dimension. Layering foley, ambient textures, and score to create an immersive auditory landscape that elevates the visual narrative.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shared Component -->
+<footer class="w-full bg-surface border-t border-white/5">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-stack-lg gap-gutter max-w-container-max mx-auto">
+<div class="font-display-lg text-headline-sm text-primary">NEXUSSNIPS</div>
+<div class="flex flex-wrap justify-center gap-gutter">
+<a class="font-body-md text-label-sm text-on-tertiary-fixed-variant hover:text-on-surface hover:text-primary transition-colors duration-300" href="#">INSTAGRAM</a>
+<a class="font-body-md text-label-sm text-on-tertiary-fixed-variant hover:text-on-surface hover:text-primary transition-colors duration-300" href="#">YOUTUBE</a>
+
+
+</div>
+<div class="font-body-md text-label-sm text-on-surface-variant opacity-80 hover:opacity-100 transition-opacity">
+                © 2026 NEXUSSNIPS. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+
+
+</body></html>
