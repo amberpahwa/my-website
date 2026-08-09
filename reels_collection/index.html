@@ -1,0 +1,286 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>CINEVISION - Reels</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface": "#131314",
+                      "primary-fixed": "#ffddb0",
+                      "on-secondary-fixed-variant": "#6200bc",
+                      "outline": "#9c8f7f",
+                      "on-primary-container": "#654300",
+                      "secondary-fixed": "#eddcff",
+                      "error-container": "#93000a",
+                      "inverse-on-surface": "#313031",
+                      "on-tertiary-fixed": "#1a1c1c",
+                      "surface-tint": "#f4bd6a",
+                      "primary": "#ffcd82",
+                      "secondary-fixed-dim": "#d8b9ff",
+                      "secondary": "#d8b9ff",
+                      "inverse-primary": "#7f5608",
+                      "on-tertiary-fixed-variant": "#454747",
+                      "surface-dim": "#131314",
+                      "on-primary-fixed": "#281800",
+                      "secondary-container": "#6e06d0",
+                      "tertiary-fixed-dim": "#c6c6c7",
+                      "on-error": "#690005",
+                      "tertiary": "#d4d5d5",
+                      "on-primary-fixed-variant": "#614000",
+                      "outline-variant": "#4f4538",
+                      "on-surface-variant": "#d3c4b2",
+                      "primary-fixed-dim": "#f4bd6a",
+                      "tertiary-fixed": "#e2e2e2",
+                      "on-primary": "#442c00",
+                      "surface-container-high": "#2a2a2b",
+                      "on-background": "#e5e2e3",
+                      "on-secondary-fixed": "#290055",
+                      "on-tertiary": "#2f3131",
+                      "surface-bright": "#3a393a",
+                      "on-tertiary-container": "#484a4a",
+                      "surface-container-highest": "#353436",
+                      "error": "#ffb4ab",
+                      "inverse-surface": "#e5e2e3",
+                      "background": "#131314",
+                      "primary-container": "#e5b05e",
+                      "surface-variant": "#353436",
+                      "on-error-container": "#ffdad6",
+                      "on-secondary-container": "#d5b5ff",
+                      "on-surface": "#e5e2e3",
+                      "surface-container": "#201f20",
+                      "surface-container-low": "#1c1b1c",
+                      "tertiary-container": "#b8b9b9",
+                      "surface-container-lowest": "#0e0e0f",
+                      "on-secondary": "#450086"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "section-gap": "120px",
+                      "gutter": "24px",
+                      "stack-md": "16px",
+                      "stack-sm": "8px",
+                      "margin-desktop": "80px",
+                      "margin-mobile": "20px",
+                      "container-max": "1440px",
+                      "stack-lg": "32px"
+              },
+              "fontFamily": {
+                      "display-lg": [
+                              "Bodoni Moda"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "display-lg-mobile": [
+                              "Bodoni Moda"
+                      ],
+                      "headline-lg": [
+                              "Bodoni Moda"
+                      ],
+                      "headline-md": [
+                              "Bodoni Moda"
+                      ],
+                      "headline-xl": [
+                              "Bodoni Moda"
+                      ],
+                      "label-sm": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "display-lg": [
+                              "84px",
+                              {
+                                      "lineHeight": "90px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "48px",
+                              {
+                                      "lineHeight": "52px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-xl": [
+                              "60px",
+                              {
+                                      "lineHeight": "72px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "500"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.surface');
+            color: theme('colors.on-surface');
+        }
+        .glass-panel {
+            background: rgba(19, 19, 20, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .reel-card {
+            aspect-ratio: 9/16;
+            transition: transform 0.3s ease;
+        }
+        .reel-card:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        .reel-card:hover .play-overlay {
+            opacity: 1;
+        }
+        .reel-gradient {
+            background: linear-gradient(to top, rgba(19, 19, 20, 0.9) 0%, rgba(19, 19, 20, 0) 50%);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col pt-[100px]">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full bg-transparent backdrop-blur-xl border-b border-white/10 flex justify-between items-center px-margin-desktop py-stack-md z-50 transition-all duration-300">
+<div class="font-display-lg text-headline-md text-primary tracking-tighter">
+            NEXUSSNIPS</div>
+<div class="hidden md:flex gap-gutter items-center font-body-md text-label-md">
+<a class="text-primary border-b-2 border-primary pb-1 scale-95 active:scale-90 transition-transform" href="#">REELS</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 duration-300 scale-95 active:scale-90 transition-transform" href="#">CATEGORIES</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 duration-300 scale-95 active:scale-90 transition-transform" href="#">ABOUT</a>
+<a class="text-on-surface-variant hover:text-on-surface transition-colors hover:brightness-125 duration-300 scale-95 active:scale-90 transition-transform" href="#">CONNECT</a>
+</div>
+<button class="bg-primary text-on-primary font-label-md px-6 py-2 rounded-full hover:brightness-125 transition-all duration-300 scale-95 active:scale-90 hidden md:block">
+            CONTACT
+        </button>
+<!-- Mobile Menu Icon (Hidden on Desktop) -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+<!-- Header & Filters -->
+<div class="mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-stack-lg">
+<div>
+<h1 class="font-headline-lg-mobile md:font-headline-xl text-primary mb-stack-sm">Cinematic Reels</h1>
+<p class="font-body-lg text-on-surface-variant max-w-2xl">Dive into curated visual stories, behind-the-scenes cuts, and trending masterpieces.</p>
+</div>
+<div class="flex flex-wrap gap-stack-sm">
+<button class="px-4 py-2 rounded-full border border-secondary text-secondary bg-secondary/10 font-label-md hover:bg-secondary/20 transition-colors">ALL REELS</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant hover:border-secondary hover:text-secondary transition-colors font-label-md">MOVIES</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant hover:border-secondary hover:text-secondary transition-colors font-label-md">WEB SERIES</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant text-on-surface-variant hover:border-secondary hover:text-secondary transition-colors font-label-md">TRENDING</button>
+</div>
+</div>
+<!-- Reels Grid -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-gutter">
+<!-- Reel Item 1 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-uV4_CnoTN1jsveva-jNO8WDhIUGa7t-5OwF7pH_HDikRMpyWSPaRdCQCwj6IS8TZRgKoZ-b5VJqAXCONS9vLqVctc-LNVjOOyCgJwoMBVUToeXfsx4Y82MoeRESBqqkNAJ7X6Tra2pb7KrnxMU1MocxUNOMYFwFdh-thiJH0qN-gFKuw5joZtkmcj4HizYNfs46cEYs0ZI66O4kOhB4_OIBKP6AQeuHYGSMjkPEj00emYbC6u1Vfs8XYL_DX5hhQHsDKFPqzYPtFWg" alt="The AI Revolution"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 2 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIFXeFoRkMTx07-Q-sYIeOHJ5mpOr6q-mL-tfN3qMYbKRqlM6yPm_4E8dwef9_7WA7QG3jhxnhHxuNA3Di89AWQCq2srkyJjORSH58N4wvQZfBZtJvbK1lEVuEXZReQkCnGDTWOpM193lEk82XpINBko-0hkctpu5V0r7yEXPI5Pt_qPIyKgUc2x2VwHV2Uqq1rWMbR9G71k2aUi7GEMtkFYqKR83TMpF1zjy6NxgMv8x33Jhh3Z_DJ1k9MvugjGx4UQtGy2YY_sLt3g" alt="Coding the Future"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 3 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfQ2PR81jBkK2upRQyUadGvyIxM38Ve6JEcwfeU3XvvL5nKzgaEDtNIDj_ElqOzZVRFqsHCX1rZFp06O2xl6qVGLuJLb622gsKt_FUygnRSdQecKu6UC9Jz7T8LM6EkkzhOf9mRtAUmLnUVTRBbfNPZE35aWNaOYXKZU0zfY_BjoAdcQUMsyOy3tCcSMvqz_6kfcwATfWk1YBK9Ic4-omyFpvFIf2tRK6ebFSCzY08SDiJbjXNt9qk92ms9yZccwIfGnlsSXYDKuvn_w" alt="Bento UI"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 4 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUZlUjSPFI5CtOZGvILu1MkfBTh2RiyA69O747rvvZsA2b85-rZIY2NBsWcfHxy6raj6DnnsSrMG7GXttqk2KaInzCuMADERG6PNPcFKTEaT1ZtVYOp_POjwLMsrylfYSAentjkg6WS06EonEMkkzmSEAdujwrrBLbxSYWG5QLheQYjGdFrBDWFIWGJfYx9OU8N3oug17E47vDkJ2nfPmO2BZPm41liDpdly4AAy2ytarbNrl2vhZYcwrlXXAp82W6WxRVX_iw6GB3IA" alt="Digital Architecture"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 5 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBknKV9oVBQuM1eNGXj9KRW47r7TGbii5Uukp89eGrTpjjnPihXsr-2D2olu4N1MlAGrDUKukd2_MZFsoJybZFIG4FNycpgW3lKL9-7iWLGpjeRv0FAW3Md1YBSXYVpfmlMxTKus8h0byY9bC4TrapK5x3lVcNTas-1zxtB36cl2mrYwOsB9mROblRzIK4miHX9qgASMpMOFJVRot1d7L6ZdR_NqQwJScB3otj5FOhUt3AzkMgoVZ5JQVIEfPXwKYQi5NnYv2v0AXF7_Q" alt="Next-Gen AI"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 6 -->
+<div class="relative reel-card rounded-lg overflow-hidden group cursor-pointer border border-white/5 bg-surface-container-low"><img class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3aECBv2vvgJihxjjcaaauw2xEG1MZp3PCY8X5UDYE3woBVADQSElzWYaH-r3qNkIpDUC1l9-QM2AWMyhhGFySIVTxQ7nDZx_gdDz47FVSNYrVm8n8JwFscZG1gQpKr50RqMhEDmKgMM3mJzlIbYcBtZmQX6waHpVIih1SPZQYXh_RnTcJK7MxOTSwucykcLRy_W75fUwVx-yc63TET9oGg8nMg2ujAIrgZ-7ghP6y8SScNyFMcpJW-vnrkaVnXtsuBX5Dy24Ir3-n_g" alt="Cyber Interface"><div class="absolute inset-0 reel-gradient flex flex-col justify-end p-stack-md"><span class="text-secondary font-label-sm mb-1 uppercase tracking-wider"><br></span><h3 class="font-headline-md text-on-surface leading-tight text-[24px]"><br></h3></div><div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 play-overlay"><span class="material-symbols-outlined text-primary text-6xl drop-shadow-lg" data-weight="fill" style="font-variation-settings: &quot;FILL&quot; 1;">play_circle</span></div></div>
+<!-- Reel Item 7 -->
+
+</div>
+<!-- Load More -->
+<div class="mt-16 flex justify-center">
+<button class="glass-panel px-8 py-3 rounded-full text-on-surface font-label-md hover:bg-white/5 transition-colors border-outline-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">autorenew</span>
+                LOAD MORE
+            </button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface border-t border-white/5 flex flex-col md:flex-row justify-between items-center px-margin-desktop py-stack-lg gap-gutter mt-auto">
+<div class="font-display-lg text-headline-sm text-primary">
+            NEXUSSNIPS</div>
+<div class="flex gap-gutter font-body-md text-label-sm">
+<a class="text-on-tertiary-fixed-variant hover:text-on-surface hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100 transition-opacity" href="#">INSTAGRAM</a>
+<a class="text-on-tertiary-fixed-variant hover:text-on-surface hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100 transition-opacity" href="#">YOUTUBE</a>
+
+
+</div>
+<div class="text-on-tertiary-fixed-variant font-label-sm">
+            © 2026 NEXUSSNIPS. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+
+
+
+
+
+
+</body></html>
